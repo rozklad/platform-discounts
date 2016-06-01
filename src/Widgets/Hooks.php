@@ -3,7 +3,7 @@
 // written 6.2.2016 at Kastiel, Fricovce, Slovakia in Koder Code Editor mobile app
 use Cart;
 use Cartalyst\Conditions\Condition;
-use Sanatorium\Shoppricing\Models\Currency;
+use Sanatorium\Pricing\Models\Currency;
 
 class Hooks {
 

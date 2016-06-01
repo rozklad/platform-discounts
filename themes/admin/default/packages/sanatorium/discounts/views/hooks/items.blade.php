@@ -15,7 +15,7 @@
 
 				</td>
 				<td class="text-right summary-col-price_vat">
-					{{ Sanatorium\Shoppricing\Models\Currency::format($condition) }}
+					{{ Sanatorium\Pricing\Models\Currency::format($condition) }}
 				</td>
 				<td>
 

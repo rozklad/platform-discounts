@@ -2,7 +2,7 @@
 
 use Platform\Foundation\Controllers\Controller;
 use Cart;
-use Sanatorium\Shoppricing\Models\Currency;
+use Sanatorium\Pricing\Models\Currency;
 use Cartalyst\Conditions\Condition;
 
 class VouchersController extends Controller {

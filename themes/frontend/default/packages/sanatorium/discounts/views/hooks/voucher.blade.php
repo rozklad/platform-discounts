@@ -27,7 +27,7 @@ $(function(){
 
 		<header class="panel-heading">
 			
-			{{ trans('discounts') }}
+			{{ trans('sanatorium/discounts::vouchers/common.title') }}
 
 		</header>
 
@@ -36,15 +36,15 @@ $(function(){
 			<div class="row">
 				<div class="col-sm-6">
 					<label for="voucher" class="control-label">
-						{{ trans('discounts') }}
+						{{ trans('sanatorium/discounts::vouchers/common.code_label') }}
 					</label>
 				</div>
 				<div class="col-sm-4 text-right">
-					<input type="text" name="voucher" id="voucher" class="form-control" placeholder="{{ trans('discounts') }}" data-discount-code>
+					<input type="text" name="voucher" id="voucher" class="form-control" placeholder="{{ trans('sanatorium/discounts::vouchers/common.code_placeholder') }}" data-discount-code>
 				</div>
 				<div class="col-sm-2">
-					<button type="submit" class="btn btn-primary" data-discount-apply-route="{{ route('discounts') }}">
-						{{ trans('discounts') }}
+					<button type="submit" class="btn btn-primary" data-discount-apply-route="{{ route('sanatorium.discounts.vouchers.apply') }}">
+						{{ trans('sanatorium/discounts::vouchers/common.code_action') }}
 					</button>
 				</div>
 			</div>
